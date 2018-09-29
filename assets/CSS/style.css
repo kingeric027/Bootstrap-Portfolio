@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    background-image: url("../images/what-the-hex.png");
+}
+
+.navwrapper {
+    width:615px;
+    margin:auto;
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+}
+
+.navwrapper2 {
+    width:920px;
+    margin:auto;
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+}
+
+#navadjust {
+    padding:0;
+    margin:0;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+#rowadjust {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.header {
+    background: white;
+    overflow: auto;
+    height: 50px;
+    border-bottom: 1px solid #dddddd;
+}
+
+h1 {
+    margin:0;
+    padding: 16px;
+    font-size: 22px;
+    height: 100%;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    overflow: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    margin:0px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+.centered {
+    position: relative;
+    bottom: 50%;
+    left: 0%;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color:white;
+}
+
+.links {
+    text-align: center;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100%;
+   
+}
+
+a {
+    color:#777777;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.content {
+    color: #777777;
+    background: white;
+    width: 920px;
+    margin: auto;
+    margin-top: 15px;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    line-height: 200%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding:20px;
+}
+
+.sections {
+    color: #777777;
+    background: white;
+    width: 615px;
+    margin: auto;
+    margin-top: 15px;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    line-height: 200%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding:20px;
+}
+
+
+.imgs{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.links2{
+    color:white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:white;
+    font-size: 12px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    height:40px;
+    font-size: 14px;
+    color: #777777;
+    opacity: 1.0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
